@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+<center><style>
+div.background {
+    background: url(22.jpg) ;
+    
+}
+
+
+</style>
+
+</center>
+</head>
+<body background="22.gif">
+
+
+
+	
+
+
+	<div class="form">
+
+
+		<strong><h1><tt>Contact Us</tt></h1></strong>
+<br>
+<div class="main">
+	<form name="Form1" action="action.html" autocomplete="on">
+
+
+<font size=+2><b>
+  <label for="fname" >First Name : </label>
+    <input type="text" id="fname" name="fname" placeholder="Your name.." required onfocusout="focusout2(document.Form1.fname)">
+    <p id="name"></p>
+
+<label for="lname">Last Name : </label>
+   <input type="text" id="lname" name="lastname" placeholder="Your last name.." required onfocusout="focusout3(document.Form1.lname)">
+       <p id="lastname"></p>
+
+   <label for="email">E-Mail Address : </label>
+   <input type="text" id="email" name="email" placeholder="Your E-Mail address..." required onfocusin="focusin1(this)" onfocusout="focusout1(document.Form1.email)">
+       <p id="mail"></p>
+Phone no : <input type=number name=no required> <br><br>
+</b></font>
+<font size=+2><br>
+  
+<b>Message :</b> <br>
+<textarea name=msg rows=4 cols=20 placeholder="Type your message here"> </textarea><br>
+</b></font>
+<input type="submit" value="Submit" >
+  </form>
+
+
+</div>
+</body>
+</html>
